@@ -1,0 +1,35 @@
+
+/* body */
+body {
+  background-color: #fff;
+  color: #333;
+  font-family: verdana, arial, helvetica, sans-serif;
+  font-size: 13px;
+  line-height: 18px;
+  margin: 33px;
+}
+
+/* main */
+main{
+  padding: 0;
+}
+.initial {
+  margin: 33px;
+}
+.bookers {
+  font-weight: bold;
+}
+
+.secound-p  {
+  margin: 0 33px 33px 33px;
+}
+a {
+  text-decoration: normal;
+  color: #000;
+  cursor: pointer;
+  line-height: 18px;
+}
+ a:hover {
+  background-color: black;
+  color: white;
+ }

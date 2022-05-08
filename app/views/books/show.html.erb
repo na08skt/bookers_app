@@ -1,0 +1,17 @@
+  <div class="message">
+    <p><%= flash[:edit] %></p>
+  </div>
+  
+  <div class="show-wrapper">
+    <!-- テーブルからtitleを取り出す -->
+    <p><span>Title: </span><%= @book.title %></p>
+    <!-- テーブルからbodyを取り出す -->
+    <p><span>Body: </span><%= @book.body %></p>
+  </div>
+
+  <div class="links">
+    <p>
+      <%= link_to "Edit", edit_book_path(@book.id)%> | 
+      <%= link_to "Back", books_path %>
+    </p>
+  </div>
