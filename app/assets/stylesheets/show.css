@@ -1,23 +1,14 @@
-.message p {
-  color: green;
-  padding-top: 33px;
-  padding-bottom: 33px;
-}
-
-/* body */
-body {
-  margin: 33px;
+ .page-wrapper {
+  background-color: #fff;
   color: #333;
+  font-family: verdana, arial, helvetica, sans-serif;
   font-size: 13px;
   line-height: 18px;
-}
-/* show-wrapper */
-.show-wrapper p {
   margin: 33px;
 }
 
-.show-wrapper span {
-  font-weight: bold;
+.message p {
+  color: green;
 }
 
 /* links */
@@ -32,3 +23,13 @@ a:hover {
   background-color: #000;
   color: #fff;
 }
+
+/* show-wrapper */
+.show-wrapper p {
+  margin: 33px;
+}
+
+.show-wrapper span {
+  font-weight: bold;
+}
+

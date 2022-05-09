@@ -1,6 +1,5 @@
-
-/* body */
-body {
+/* 共通 */
+.page-wrapper {
   background-color: #fff;
   color: #333;
   font-family: verdana, arial, helvetica, sans-serif;
@@ -9,20 +8,6 @@ body {
   margin: 33px;
 }
 
-/* main */
-main{
-  padding: 0;
-}
-.initial {
-  margin: 33px;
-}
-.bookers {
-  font-weight: bold;
-}
-
-.secound-p  {
-  margin: 0 33px 33px 33px;
-}
 a {
   text-decoration: normal;
   color: #000;
@@ -33,3 +18,17 @@ a {
   background-color: black;
   color: white;
  }
+
+.introduction {
+  margin: 33px;
+}
+
+ .bookers {
+  font-weight: bold;
+}
+
+.start {
+  margin-bottom: 33px;
+  margin-left: 33px;
+  margin-right:33px;
+}

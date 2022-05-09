@@ -1,10 +1,14 @@
-
+<div class="page-wrapper">
   <header>
     <h1>ようこそ Bookersへ！</h1>
   </header>
-  <main>
-    <p class="initial"><span class="bookers">Bookers</span>では、さまざまな書籍に関するあなたの意見や</p>
-    <p class="secound-p">印象を共有し交換することができます</p>
-    <a href="/books" >start</a>
-  </main>
-  
+    <div class="introduction">
+      <p><span class="bookers">Bookers</span>では、さまざまな書籍に関するあなたの意見や</p>
+    </div>
+    <div class="introduction">
+      <p>印象を共有し交換することができます</p>
+    </div>
+    <div class="start">
+      <%= link_to "start", books_path %>
+    </div>
+</div>

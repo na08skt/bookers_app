@@ -1,8 +1,33 @@
-main {
-  padding: 33px;
+ .page-wrapper {
+  background-color: #fff;
+  color: #333;
+  font-family: verdana, arial, helvetica, sans-serif;
+  font-size: 13px;
+  line-height: 18px;
+  margin: 33px;
+}
+
+.message p{
+  color: green;
+}
+/* links */
+a {
+  cursor: pointer;
+  padding: 1px 5px 7px 5px;
+  text-decoration: underline;
+  color: #000;
+}
+
+a:hover {
+  background-color: #000;
+  color: #fff;
+}
+
+label{
+  display: block;
 }
 
 .edit-form {
-    margin-bottom: 10px;
+  margin-bottom: 10px;
 }
 
